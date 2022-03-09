@@ -20,25 +20,25 @@
 		commenting on the active code.  
         to revert, just add the '/' bar again
   
-	spacenames PruebaAlaternaInstrucciones.ProyectoAlternarInstrucciones  
-	{  
-		class internal PruebaAlternaInstrucciones  
-		{  
-			void static Main()  
-			{  
-				string? pruebaUno = "Prueba nº uno";  
-				string? pruebaDos = "Prueba nº dos";  
-				//*// Suprimir o añadir la primera "/" para alternar las siguientes instrucciones.  
-				/*/  
-				Console.Write($"Esta es la { pruebaUno} \t");  
-				/*/  
-				Console.WriteLine($"Esta es la { pruebaDos} \t");  
-				/*/  
-				Console.WriteLine($"Esta es la { pruebaDos} \n\r");  
-				/*/  
-				Console.WriteLine($"Esta es la { pruebaUno} \n\r");  
-				//*/  
-			}  
-		}  
-	}  
+	namespace PruebaAlaternaInstrucciones.ProyectoAlternarInstrucciones
+	{
+		internal class PruebaAlternaInstrucciones
+		{
+			static void Main()
+			{
+				string? pruebaUno = "Prueba nº uno";
+				string? pruebaDos = "Prueba nº dos";
+				/*// Suprimir o añadir la primera "/" para alternar las siguientes instrucciones.
+				/*/
+				Console.Write($"Esta es la { pruebaUno} \t");
+				/*/
+				Console.WriteLine($"Esta es la { pruebaDos} \t");
+				/*/
+				Console.WriteLine($"Esta es la { pruebaDos} \n\r");
+				/*/
+				Console.WriteLine($"Esta es la { pruebaUno} \n\r");
+				//*/
+			}
+		}
+	}
 
