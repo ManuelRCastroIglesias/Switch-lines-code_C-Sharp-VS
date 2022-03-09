@@ -20,11 +20,11 @@
 		commenting on the active code.  
         to revert, just add the '/' bar again
   
-	espacio de nombres PruebaAlaternaInstrucciones.ProyectoAlternarInstrucciones  
+	spacenames PruebaAlaternaInstrucciones.ProyectoAlternarInstrucciones  
 	{  
-		clase interna PruebaAlternaInstrucciones  
+		class internal PruebaAlternaInstrucciones  
 		{  
-			vacío estático Main()  
+			void static Main()  
 			{  
 				string? pruebaUno = "Prueba nº uno";  
 				string? pruebaDos = "Prueba nº dos";  
