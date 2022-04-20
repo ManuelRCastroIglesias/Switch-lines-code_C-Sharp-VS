@@ -28,7 +28,7 @@
 			{
 				string? pruebaUno = "Prueba nº uno";
 				string? pruebaDos = "Prueba nº dos";
-				/*// Suprimir o añadir la primera "/" para alternar las siguientes instrucciones.
+				//*// Suprimir o añadir la primera "/" para alternar las siguientes instrucciones.
 				/*/
 				Console.Write($"Esta es la { pruebaUno} \t");
 				/*/
