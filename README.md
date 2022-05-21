@@ -13,7 +13,7 @@
 > ---------------------------------------------------------------------------  
 > Uso de comentarios Switch para pruebas o colaboración:  
 > formato:  
-'''
+> 
 > //*// Autor de la modificación.  
 >
 > Aquí va el código original sin cambios.  
@@ -26,7 +26,7 @@
 > Aquí va el Código alternativo.  
 >
 > //*/  
-'''
+> 
 > funcionamiento;  
 >     Para ver u ocultar el código alternativo:  
 >         quita o pon una de las dos // del inicio de la líneas con //*//  
@@ -37,8 +37,9 @@
 > ---------------------------------------------------------------------------
 > Using Switch feedback for testing or collaboration:
 > format:
+> ---------------------------------------------------------------------------
 > //*// Author of the modification.
-> //
+> 
 > Here is the original code unchanged.
 > 
 > /*/ // Reason for change. (the two bars of the motif are necessary)
@@ -47,7 +48,10 @@
 >  /* And do not use multiline comments */
 > 
 > Here is the Alternative Code.
->     //*/
+> 
+> //*/
+> 
+> ---------------------------------------------------------------------------
 > operation;
 > To view or hide the alternate code:
 > remove or put one of the two // from the start of the lines with //*//
