@@ -13,19 +13,19 @@
 > ---------------------------------------------------------------------------  
 > Uso de comentarios Switch para pruebas o colaboración:  
 > formato:  
- '''
+'''
 > //*// Autor de la modificación.  
 >
->     Aquí va el código original sin cambios.  
+> Aquí va el código original sin cambios.  
 >
->      /*/ // Motivo del cambio. (las dos barras del motivo son necesarias)  
->          // Si es necesario más de una línea,  
->          // ponerlas fuera del marcador. (con doble barra)  
->          // /* Y no usar comentarios multilínea */  
+> /*/ // Motivo del cambio. (las dos barras del motivo son necesarias)  
+>     // Si es necesario más de una línea,  
+>     // ponerlas fuera del marcador. (con doble barra)  
+>     // /* Y no usar comentarios multilínea */  
 >
->     Aquí va el Código alternativo.  
+> Aquí va el Código alternativo.  
 >
->     //*/  
+> //*/  
 '''
 > funcionamiento;  
 >     Para ver u ocultar el código alternativo:  
