@@ -7,27 +7,27 @@
 (ES-es)    -No he podido probarlo en otros entornos-  
 (EN-en)   -I haven't been able to test it in other environments-  
   
-(ES-es)  /// ---------------------------------------------------------------------------
-> Si llegas a usar los Comentarios Switch pon una copia de las instrucciones.
-> Aunque me fue aprobado e implantado hace ya 3 años, aún no es conocido.
-> ---------------------------------------------------------------------------
-> Uso de comentarios Switch para pruebas o colaboración:
-> formato:
->     //*// Autor de la modificación.
+(ES-es)  /// -----------------------------------------------------------------  
+> Si llegas a usar los Comentarios Switch pon una copia de las instrucciones.  
+> Aunque me fue aprobado e implantado hace ya 3 años, aún no es conocido.  
+> ---------------------------------------------------------------------------  
+> Uso de comentarios Switch para pruebas o colaboración:  
+> formato:  
+>     //*// Autor de la modificación.  
 
->     Aquí va el código original sin cambios.
+>     Aquí va el código original sin cambios.  
 
->      /*/ // Motivo del cambio. (las dos barras del motivo son necesarias)
->          // Si es necesario más de una línea,
->          // ponerlas fuera del marcador. (con doble barra)
->          // /* Y no usar comentarios multilínea */
+>      /*/ // Motivo del cambio. (las dos barras del motivo son necesarias)  
+>          // Si es necesario más de una línea,  
+>          // ponerlas fuera del marcador. (con doble barra)  
+>          // /* Y no usar comentarios multilínea */  
 
->     Aquí va el Código alternativo.
+>     Aquí va el Código alternativo.  
 
->     //*/
-> funcionamiento;
->     Para ver u ocultar el código alternativo:
->         quita o pon una de las dos // del inicio de la líneas con //*//
+>     //*/  
+> funcionamiento;  
+>     Para ver u ocultar el código alternativo:  
+>         quita o pon una de las dos // del inicio de la líneas con //*//  
   
 (EN-en)  /// ----------------------------------------------------------------
 > If you get to use the Switch Comments put a copy of the instructions.
