@@ -1,9 +1,9 @@
 # Como usar SwitchComments
 
 1. Inserta una línea nueva, antes de las líneas a modificar y añade  
-_*<kbd style=font-size:1.05rem>//*/</kbd>*_  
+_*<kbd style=font-size:1.05rem>//\*/</kbd>*_  
 e inserta otra línea nueva, después de la última línea y vuelve a añadir otro  
-_*<kbd style=font-size:1.05rem>//*/</kbd>*_  
+_*<kbd style=font-size:1.05rem>//\*/</kbd>*_  
 Esto hará que dicha sección aparezca comentada.  
 Para descomentarla simplemente quita una _*<kbd style=font-size:1.05rem>/</kbd>*_ del  inicio de la primera y el bloque aparecerá descomentado,  
 y vueve a añadirla para recomentarlo.  
@@ -12,7 +12,7 @@ ahorra mucho trabajo.
 
 2. En el caso de que necesites alternar dos bloques.  
 Añade antes de la segunda, otra línea con lo siguiente  
-_*<kbd style=font-size:1.05rem>/*/</kbd>*_  
+_*<kbd style=font-size:1.05rem>/\*/</kbd>*_  
 y en medio de ambas el código alternativo.  
 Esto hará que los bloques de código alternen su comportamiento.
 
@@ -39,7 +39,7 @@ _`//*/`_
 
 ## ¡IMPORTANTE!
 
-NUNCA uses comentarios tipo bloque _*<kbd style=font-size:1.05rem>/* ... */</kbd>*_ en el inetrior ya que no funcionan.
+NUNCA uses comentarios tipo bloque _*<kbd style=font-size:1.05rem>/\* ... \*/</kbd>*_ en el inetrior ya que no funcionan.
 
 Es conveniente añadir un comentario precedido de dos _*<kbd style=font-size:1.05rem> // </kbd>*_ para indicar:
 -  que se intenta hacer,  
