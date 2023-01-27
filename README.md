@@ -11,9 +11,11 @@ Con ello ya no necesitas seleccionar el bloque y realizar las acciones de coment
 ahorra mucho trabajo.
 
 2. En el caso de que necesites alternar dos bloques.  
+_*<kbd style=font-size:1.05rem>//\*/</kbd>*_  
 Añade antes de la segunda, otra línea con lo siguiente  
 _*<kbd style=font-size:1.05rem>/\*/</kbd>*_  
 y en medio de ambas el código alternativo.  
+_*<kbd style=font-size:1.05rem>//\*/</kbd>*_  
 Esto hará que los bloques de código alternen su comportamiento.
 
 EJEMPLO:
