@@ -1,27 +1,25 @@
 # Como usar SwitchComments
 
 1. Inserta una línea nueva, antes de las líneas a modificar y añade  
-_*<kbd style=font-size:1.05rem>//\*/</kbd>*_  
+_*<kbd style=font-size:1.05rem>\/\/\*\/</kbd>*_  
 e inserta otra línea nueva, después de la última línea y vuelve a añadir otro  
-_*<kbd style=font-size:1.05rem>//\*/</kbd>*_  
+_*<kbd style=font-size:1.05rem>\/\/\*\/</kbd>*_  
 Esto hará que dicha sección aparezca comentada.  
-Para descomentarla simplemente quita una _*<kbd style=font-size:1.05rem>/</kbd>*_ del  inicio de la primera y el bloque aparecerá descomentado,  
+Para descomentarla simplemente quita una _*<kbd style=font-size:1.05rem>\/</kbd>*_ del  inicio de la primera y el bloque aparecerá descomentado,  
 y vueve a añadirla para recomentarlo.  
 Con ello ya no necesitas seleccionar el bloque y realizar las acciones de comentar o descomentar,  
 ahorra mucho trabajo.
 
 2. En el caso de que necesites alternar dos bloques.  
-_*<kbd style=font-size:1.05rem>//\*/</kbd>*_  
 Añade antes de la segunda, otra línea con lo siguiente  
-_*<kbd style=font-size:1.05rem>/\*/</kbd>*_  
+_*<kbd style=font-size:1.05rem>\/\*\/</kbd>*_  
 y en medio de ambas el código alternativo.  
-_*<kbd style=font-size:1.05rem>//\*/</kbd>*_  
 Esto hará que los bloques de código alternen su comportamiento.
 
 EJEMPLO:
 
 ---
-_`//*/`_ -> Observa que hay dos _*<kbd style=font-size:1.05rem>//</kbd>*_ al inicio  
+_`//*/`_ -> Observa que hay dos _*<kbd style=font-size:1.05rem>\/\/</kbd>*_ al inicio  
 _`boolean isEntranceEnable = true; //código comentado`_  
 _`/*/`_  
 _*<kbd style=font-size:1.05rem>boolean isEntranceEnable = false;</kbd>*_ _`//código descomentado`_  
@@ -31,7 +29,7 @@ _`//*/`_
 O bien
 
 ---
-_`/*/`_ -> Observa que solo hay una _*<kbd style=font-size:1.05rem>/</kbd>*_ al inicio  
+_`/*/`_ -> Observa que solo hay una _*<kbd style=font-size:1.05rem>\/</kbd>*_ al inicio  
 _*<kbd style=font-size:1.05rem>boolean isEntranceEnable = true;</kbd>*_ _`//código descomentado`_  
 _`/*/`_  
 _`boolean isEntranceEnable = false; //código comentado`_  
@@ -41,9 +39,9 @@ _`//*/`_
 
 ## ¡IMPORTANTE!
 
-NUNCA uses comentarios tipo bloque _*<kbd style=font-size:1.05rem>/\* ... \*/</kbd>*_ en el inetrior ya que no funcionan.
+NUNCA uses comentarios tipo bloque _*<kbd style=font-size:1.05rem>\/\* ... \*\/</kbd>*_ en el inetrior ya que no funcionan.
 
-Es conveniente añadir un comentario precedido de dos _*<kbd style=font-size:1.05rem> // </kbd>*_ para indicar:
+Es conveniente añadir un comentario precedido de dos _*<kbd style=font-size:1.05rem> \/\/ </kbd>*_ para indicar:
 -  que se intenta hacer,  
 - cual es el original y cual el alternativo, 
 - quien es el autor de la modificación 
