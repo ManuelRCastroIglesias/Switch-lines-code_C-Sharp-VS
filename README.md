@@ -1,43 +1,45 @@
 # Como usar SwitchComments
 
-1. Inserta una línea nueva, antes de las líneas a modificar y añade  
-_*<kbd style=font-size:1.05rem>\/\/\*\/</kbd>*_  
-e inserta otra línea nueva, después de la última línea y vuelve a añadir otro  
-_*<kbd style=font-size:1.05rem>\/\/\*\/</kbd>*_  
-Esto hará que dicha sección aparezca comentada.  
-Para descomentarla simplemente quita una _*<kbd style=font-size:1.05rem>\/</kbd>*_ del  inicio de la primera y el bloque aparecerá descomentado,  
-y vueve a añadirla para recomentarlo.  
-Con ello ya no necesitas seleccionar el bloque y realizar las acciones de comentar o descomentar,  
-ahorra mucho trabajo.
+1. Inserta antes del bloque o línea a comentar , una línea nueva y añade:  
 
-2. En el caso de que necesites alternar dos bloques.  
-Añade antes de la segunda, otra línea con lo siguiente  
-_*<kbd style=font-size:1.05rem>\/\*\/</kbd>*_  
-y en medio de ambas el código alternativo.  
-Esto hará que los bloques de código alternen su comportamiento.
+> _*<kbd style=font-size:1.05rem> ... código ... </kbd>*_  
+> _*<kbd style=font-size:1.05rem>/\/\*\/ \/\/ (comportamiento SwitchComment) </kbd>*_  
+> _*<kbd style=font-size:1.05rem> ... código original ... \/\/ Código descomentado </kbd>*_  
+> _*<kbd style=font-size:1.05rem> /\*\/ </kbd>*_ _ <-- es opcional_  
+> _*<kbd style=font-size:1.05rem> ... código alternativo ... \/\/ Código comentado </kbd>*_  <-- es opcional_  
+> _*<kbd style=font-size:1.05rem> /\/\*\/ \/\/ (fin del SwitchComment) </kbd>*_  
+> _*<kbd style=font-size:1.05rem> ... el resto del código ... \/\/ Código descomentado </kbd>*_
+
+Para descomentar el código, simplemente quita una _*<kbd style=font-size:1.05rem>\/</kbd>*_ del  inicio de la primera aparición  
+y el bloque aparecerá **comentado**, y vueve a añadirla para **descomentarlo**.  
+Con ello ya no necesitas seleccionar el bloque y realizar las acciones de comentar o  
+descomentar, con lo que te ahorraras mucho trabajo.  
+
+**Recuerda:** Borrar los comentarios cuando ya no los necesites.
 
 EJEMPLO:
 
 ---
-_`//*/`_ -> Observa que hay dos _*<kbd style=font-size:1.05rem>\/\/</kbd>*_ al inicio  
-_`boolean isEntranceEnable = true; //código comentado`_  
-_`/*/`_  
-_*<kbd style=font-size:1.05rem>boolean isEntranceEnable = false;</kbd>*_ _`//código descomentado`_  
-_`//*/`_  
+> _`//*/`_ -> Observa que hay dos _*<kbd style=font-size:1.05rem>\/\/</kbd>*_ al inicio   
+> _*<kbd style=font-size:1.05rem>boolean isEntranceEnable = false;</kbd>*_ _`//código descomentado`_    
+> _`/*/`_  
+> _`boolean isEntranceEnable = true; //código comentado`_  
+> _`//*/`_  
 
 ---
 O bien
 
 ---
-_`/*/`_ -> Observa que solo hay una _*<kbd style=font-size:1.05rem>\/</kbd>*_ al inicio  
-_*<kbd style=font-size:1.05rem>boolean isEntranceEnable = true;</kbd>*_ _`//código descomentado`_  
-_`/*/`_  
-_`boolean isEntranceEnable = false; //código comentado`_  
-_`//*/`_  
+> _`/*/`_ -> Observa que solo hay una _*<kbd style=font-size:1.05rem>\/</kbd>*_ al inicio  
+> _`boolean isEntranceEnable = false; //código comentado`_  
+> _`/*/`_  
+> _*<kbd style=font-size:1.05rem>boolean isEntranceEnable = true;</kbd>*_ _`//código descomentado`_  
+> _`//*/`_  
 
+---  
 ---
 
-## ¡IMPORTANTE!
+## ¡MUY IMPORTANTE!
 
 NUNCA uses comentarios tipo bloque _*<kbd style=font-size:1.05rem>\/\* ... \*\/</kbd>*_ en el inetrior ya que no funcionan.
 
@@ -58,7 +60,7 @@ Para empezar hay que aclarar un punto importante.
 
 ### Entonces ¿Para que sirve SwitchComment?
 > SwitchComment sirve para comentar y descomentar rápidamete bloques de código mientras codificas  
-y poder realizar variantes y probar cual se comporta mejor, o si dicha variante funciona sin alterar el código original.
+y poder realizar variantes y probar cual se comporta mejor, o si dicha variante funciona, sin alterar el código original.
 
 > Debido a ello cuando estamos trabajando en colaboración, nos permite sugerir cambios o correcciones  
 sin tener que modificar el código original,  
