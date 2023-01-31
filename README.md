@@ -32,7 +32,7 @@ Con lo que puedes alternar los comentarios en bloques alternos con una sola tecl
 Con ello ya no necesitas seleccionar el bloque y realizar las acciones de comentar o  
 descomentar, con lo que te ahorraras mucho trabajo.  
 
-**Recuerda: ** Borrar los comentarios cuando ya no los necesites.
+**Recuerda:** Borrar los comentarios cuando ya no los necesites.
 
 EJEMPLO:
 
