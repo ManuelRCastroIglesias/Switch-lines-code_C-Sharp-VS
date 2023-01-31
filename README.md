@@ -3,7 +3,7 @@
 ### Inserta antes del bloque o línea a comentar, una línea nueva y añade:  
 
 ---  
-```java
+```javascript
 ... el código anterior ... // Código descomentado
 //* código original (descomentado)/
 ... código ...
@@ -22,7 +22,7 @@
 ```
 
 Para descomentar el código, simplemente quita o pon una **barra oblicua** de la línea:  
-```F#
+```javascript
 //* código original (descomentado)/
 ```
 ```C++
@@ -37,7 +37,7 @@ descomentar, con lo que te ahorraras mucho trabajo.
 EJEMPLO:
 
 ---
-```C#
+```javascript
 //* Observa que hay dos barras al inicio/
 boolean isEntranceEnable = false; //código descomentado
 /*/
@@ -60,7 +60,7 @@ boolean isEntranceEnable = true; //código descomentado
 # Justificación
 
 ### Para empezar hay que aclarar un punto importante.
-## **Nunca debemos subir a producción código comentado. **
+## **Nunca debemos subir a producción código comentado.**
 * Por lo que deberemos usar alguna extensión como Prettier o similar para limpiar nuestro código.
 
 >---
@@ -73,5 +73,5 @@ boolean isEntranceEnable = true; //código descomentado
 para activar y desactivar código durante las mismas. 
 >---
 
-# **¡** _Y ten una muy feliz codificación_ **! **
+# **¡** _Y ten una muy feliz codificación_ **!**
 
